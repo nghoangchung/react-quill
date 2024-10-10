@@ -22,7 +22,7 @@
     "test:browser": "cypress run",
     "test:browser:interactive": "cypress open",
     "demo": "superstatic demo",
-    "clean": "rimraf lib dist",
+    "clean": "rimraf lib dist"
   },
   "keywords": [
     "react",
