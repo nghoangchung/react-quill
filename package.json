@@ -7,7 +7,7 @@
   "homepage": "https://github.com/zenoamaro/react-quill",
   "bugs": "https://github.com/zenoamaro/react-quill/issues",
   "repository": "https://github.com/zenoamaro/react-quill.git",
-  "main": "src/index.tsx",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "npm run build:lib && npm run build:dist && npm run build:css",
@@ -22,6 +22,7 @@
     "test:browser": "cypress run",
     "test:browser:interactive": "cypress open",
     "demo": "superstatic demo",
+    "clean": "rimraf lib dist",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
@@ -36,6 +37,7 @@
   "files": [
     "dist/",
     "lib/",
+    "src/",
     "types.d.ts",
     "README.md",
     "CHANGELOG.md",
